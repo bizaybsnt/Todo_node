@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODO</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="jumbotron" style="margin: 30px;padding: 20px">
+		<h2>Welcome to TODO apps</h2>
+		<form action="/submit-data" method="POST">
+			<h3>New Task</h3>
+			<div class="form-group">
+			Task Name: <input type="text" name="body" />
+			</div>
+			<div class="form-group">
+				<input type="submit" name="add" value="Add">
+			</div>
+		</form>
+		<hr/>
+		<h3>Your Task List</h3>
+		<ul>
+			<li>Learn Node</li>
+			<li>Work on Node</li>
+			<li>Practice</li>
+		</ul>
+	</div>
+</body>
+</html>
